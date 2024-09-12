@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+.kolor{
+    color: #73529D;
+}
+#section1{
+    background-image: url('/src/img/section1-bg.png');
+    background-size: cover;
+}
+#section2{
+    background-image: url('/src/img/circlediag.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+}
+.right{
+    background-image: url('/src/img/section1-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+    */
+
+body{
+    font-family: 'montserrat';
+}
+#section1{
+    background-image: url('/src/img/mama.png');
+    background-repeat: no-repeat;
+    background-position: right 0;   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#tlo2{
+    background-image: url('/src/img/tlo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#tlo3{
+    background-image: url('/src/img/tlo3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#misie {
+    background-image: url('/src/img/misie.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aboutus{
+    background-image: url('/src/img/aboutus.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#prefooter{
+    background-image: url('/src/img/prefooter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+  
